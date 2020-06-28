@@ -1,0 +1,25 @@
+<div class="content">
+  <div class="form-group">
+    <label for="question1">¿Estás satisfecho con la calidad de enseñanza?</label>
+    <input type="text" class="form-control" id="answer1" [(ngModel)]="answer1">
+  </div>
+  <div class="form-group">
+    <label for="question2">¿Crees que la universidad está lo suficientemente equipada para las necesidades de los estudios?</label>
+    <input type="text" class="form-control" id="answer2" [(ngModel)]="answer2">
+  </div>
+  <div class="form-group">
+    <label for="question3">¿Crees que la universidad está lo suficientemente equipada para las necesidades de los estudios?</label>
+    <input type="text" class="form-control" id="answer3" [(ngModel)]="answer3">
+  </div>
+  <div class="example-button-row">
+    <button mat-stroked-button (click)="sendAnswers()">Send!</button>
+  </div>
+  <!--<div class="example-button-row">
+    <button mat-stroked-button (click)="getSlices()">Get slices!</button>
+  </div>-->
+  <div>
+    <h5 class="responsepost" id="submitpoll"></h5>
+    <h5 class="responsepost">
+      Respuesta del server sss: {{ responseSlices }}</h5>
+  </div>
+</div>
