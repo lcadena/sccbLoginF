@@ -23,7 +23,7 @@
     "@types/socket.io": "^2.1.8",
     "bigint-conversion": "^2.1.11",
     "bigint-crypto-utils": "^3.0.7",
-    "bootstrap": "3.3.6",
+    "bootstrap": "3.4.1",
     "jquery": "1.12",
     "object-sha": "^2.0.5",
     "rsa": "file:../../P1/basicServer/modulRSA",
